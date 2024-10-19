@@ -1,0 +1,50 @@
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.social-button i {
+  font-size: 24px;
+}
+
+.social-button span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social-button.telegram {
+  background-color: #3b5998;
+}
+
+.social-button.twitter {
+  background-color: black;
+}
+
+.social-button.dexscreener {
+  background-color: #333333;
+}
+
+.social-button i {
+  line-height: 50px;
+}
+
+.social-img {
+  height: 36px;
+  max-width: 100%;
+}
