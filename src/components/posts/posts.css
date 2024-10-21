@@ -1,0 +1,12 @@
+.postHeaderCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 15px;
+}
+
+.postCont {
+  border: solid 3px #cbd2a4;
+  background-color: rgba(233, 238, 217, 0.85);
+}

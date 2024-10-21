@@ -8,8 +8,9 @@ import xW from "./xW.png";
 const CharBox = () => {
   return (
     <div className="charBox">
+      <h2>Dominic Lopez</h2>
       <img src={pfp} />
-      <h2>Dominic Lopex Hedge Fund Inu</h2>
+      <h2>Hedge Fund Inu</h2>
       <div className="socialBox">
         <SocialButton platform="telegram" url="" img={tg} />
         <SocialButton platform="twitter" url="" img={xW} />

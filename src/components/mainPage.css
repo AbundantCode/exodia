@@ -1,0 +1,16 @@
+.mainCont {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.mainLCont {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.mainRCont {
+  margin: 0 auto;
+  width: 35%;
+}
