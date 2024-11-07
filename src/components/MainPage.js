@@ -1,6 +1,6 @@
 import CharBox from "./charBox/CharBox";
 import "./mainPage.css";
-import Post from "./posts/posts";
+import PostList from "./posts/postList";
 
 const MainPage = () => {
   return (
@@ -10,7 +10,7 @@ const MainPage = () => {
       </div>
       <div className="mainLCont">
         <h2>Posts</h2>
-        <Post />
+        <PostList />
       </div>
     </div>
   );

@@ -7,6 +7,12 @@
 }
 
 .postCont {
+  margin: 10px 0;
   border: solid 3px #cbd2a4;
   background-color: rgba(233, 238, 217, 0.85);
 }
+
+/* .postListCont {
+  display: flex;
+
+} */
